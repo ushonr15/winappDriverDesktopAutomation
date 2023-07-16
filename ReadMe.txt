@@ -8,3 +8,4 @@ To get better execution performace please close all open applications
 Tech skills expcted:
 	1. Familiar with Seleium Java
 	2. Familiar with Cucumber 
+	new line
