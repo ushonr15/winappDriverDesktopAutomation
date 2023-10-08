@@ -22,10 +22,11 @@ public class TestBase {
 		if (aut_Driver == null) {
 			try {
 				DesiredCapabilities aut_Capabilities = new DesiredCapabilities();
-				aut_Capabilities.setCapability("app", GenericUtils.getGlobalProperties().getProperty("autInstalledLocation"));
+				aut_Capabilities.setCapability("app", "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App");
+				//aut_Capabilities.setCapability("app", GenericUtils.getGlobalProperties().getProperty("autInstalledLocation"));
 				aut_Driver = new WindowsDriver<WebElement>(new URL(GenericUtils.getGlobalProperties().getProperty("winAppDriverURL")), aut_Capabilities);
 				aut_Driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-				
+				aut_Driver.manage().window().maximize();
 				DesiredCapabilities desktop_Capabilities = new DesiredCapabilities();
 				desktop_Capabilities.setCapability("app", "Root");
 				desktop_Driver = new WindowsDriver<WebElement>(new URL(GenericUtils.getGlobalProperties().getProperty("winAppDriverURL")), desktop_Capabilities);

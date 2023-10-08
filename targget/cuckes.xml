@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="62.774">
+<testcase classname="Calculator" name="Calculator" time="62.534">
+<system-out><![CDATA[Given I set calculator type "Standard Calculator"...........................passed
+Given I set calculator type "Scientific Calculator".........................passed
+Given I set calculator type "Graphing Calculator"...........................passed
+Given I set calculator type "Programmer Calculator".........................passed
+Given I set calculator type "Date calculation Calculator"...................passed
+Given I set calculator type "Currency Converter"............................passed
+Given I set calculator type "Volume Converter"..............................passed
+Given I set calculator type "Length Converter"..............................passed
+Given I set calculator type "Weight and mass Converter".....................passed
+Given I set calculator type "Temperature Converter".........................passed
+Given I set calculator type "Energy Converter"..............................passed
+Given I set calculator type "Area Converter"................................passed
+Given I set calculator type "Speed Converter"...............................passed
+Given I set calculator type "Time Converter"................................passed
+Given I set calculator type "Power Converter"...............................passed
+Given I set calculator type "Data Converter"................................passed
+Given I set calculator type "Pressure Converter"............................passed
+Given I set calculator type "Angle Converter"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
